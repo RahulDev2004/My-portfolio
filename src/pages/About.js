@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/12.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -81,29 +81,36 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Rahul B</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">
+                A freelance Full-stach Developer
+              </h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  Hello, I'm Rahul, an aspiring entrepreneur with a strong
+                  background in computer science and a passion for creating
+                  cutting-edge software solutions. I am currently pursuing my
+                  second year of B.E. in computer science at Rajalakshmi
+                  Institute of Technology in Chennai.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  With two years of experience in software development, my
+                  expertise lies in utilizing web3 technologies to build
+                  decentralized solutions. I am deeply fascinated by the
+                  potential of blockchain technology and its ability to
+                  revolutionize various industries.
                   <br />
-                  <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  <br />I thrive on leveraging my technical knowledge and
+                  innovative mindset to develop decentralized applications
+                  (Dapps) that empower individuals and businesses. I am
+                  committed to delivering high-quality solutions that harness
+                  the power of decentralization.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <Button
+                btnText="Download CV"
+                btnLink="https://drive.google.com/file/d/1VHxxtJFv49WHYPWSKRS7TzvtBFjNrRdf/view?usp=sharing"
+              />
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -115,15 +122,11 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Velammal Matriculation Higher Secondary School']}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                items={['Rajalakshmi Institute of Technology']}
               />
             </div>
             <div className="about__info__item">
@@ -131,31 +134,31 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['Tailwind', 'Typescript', 'JavaScript', 'Next']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                items={['Node', 'Express', 'MongoDB']}
               />
               <AboutInfoItem
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['Solidity', 'Rust', 'Thirdweb']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="2021-2022"
+                items={['Software Developer at ROOK']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="2023-Present"
+                items={['Co-Founder of CryptoCapita']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="2023-Present"
+                items={['Part-time Freelancer']}
               />
             </div>
           </div>

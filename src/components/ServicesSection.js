@@ -31,18 +31,18 @@ export default function ServicesSection() {
         <div className="services__allItems">
           <ServicesSectionItem
             icon={<MdDesktopMac />}
-            title="web design"
-            desc="I do ui/ux design for the website that helps website to get a unique look."
+            title="Web & Mobile App Dev"
+            desc="I can create full-stack interactive & responsive web and mobile applications."
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            title="Blockchain Dapp Dev"
+            desc="I can create DAPPs in popular Blockchains with secure Smart Contracts."
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile application. I create mobile app with eye catching ui. "
+            title="Web3 Dev"
+            desc="I can give web3 solutions to your existing applications. (NFTs, SmartContracts etc...) "
           />
         </div>
       </div>

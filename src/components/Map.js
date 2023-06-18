@@ -49,10 +49,10 @@ export default function Map() {
       <div className="container">
         <div className="map__card">
           <h3 className="map__card__heading">Here is me</h3>
-          <PText>GEC circle, Chittagong, Bangladesh</PText>
+          <PText>chennai, India</PText>
           <a
             className="map__card__link"
-            href="https://www.google.com/maps/place/GEC+More,+Chittagong/@22.3590818,91.8195583,17z/data=!3m1!4b1!4m5!3m4!1s0x30acd89aaa8239cd:0x6e65fa00001dd59f!8m2!3d22.3590715!4d91.8215486"
+            href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu/@13.0474733,80.0442023,11z/data=!3m1!4b1!4m6!3m5!1s0x3a5265ea4f7d3361:0x6e61a70b6863d433!8m2!3d13.0826802!4d80.2707184!16zL20vMGM4dGs?entry=ttu"
             target="_blank"
             rel="noreferrer"
           >

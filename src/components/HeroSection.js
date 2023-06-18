@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/1.png';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -29,6 +29,8 @@ const HeroStyles = styled.div`
       font-family: 'Montserrat SemiBold';
       font-size: 7rem;
       color: var(--white);
+      background-color: #262626;
+      width: 350px;
     }
   }
   .hero__img {
@@ -36,7 +38,15 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid var(--gray-1);
+  }
+  .hero__img img {
+    width: 50%;
+    height: 60%;
+    margin-bottom: 15rem;
   }
   .hero__info {
     margin-top: -18rem;
@@ -106,8 +116,16 @@ const HeroStyles = styled.div`
         font-size: 4.5rem;
       }
     }
+    .hero__name {
+      max-width: 230px;
+    }
     .hero__img {
       height: 300px;
+    }
+    .hero__img img {
+      margin: 0;
+      height: 90%;
+      margin-top: 2rem;
     }
     .hero__info {
       margin-top: 3rem;
@@ -154,16 +172,15 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Rahul B</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am working as a freelance Full-stack Developer with a strong
+              passion on creating cutting edge software solutions.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>

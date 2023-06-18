@@ -57,11 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Rahul B</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            I am working as a freelance Full-stack Developer with a strong
+            passion on creating cutting edge software solutions.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,16 +95,16 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 9176700606',
+                path: 'tel:+919176700606',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'talktorahul.b@gmail.com',
+                path: 'mailto:talktorahul.b@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
+                title: 'Chennai, India',
+                path: 'https://www.google.com/maps/place/Chennai,+Tamil+Nadu/@13.0474733,80.0442023,11z/data=!3m1!4b1!4m6!3m5!1s0x3a5265ea4f7d3361:0x6e61a70b6863d433!8m2!3d13.0826802!4d80.2707184!16zL20vMGM4dGs?entry=ttu',
               },
             ]}
           />
@@ -133,9 +132,9 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
+            © 2023 - Hlodev | Designed By{' '}
             <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
+              Rahul
             </a>{' '}
           </PText>
         </div>
