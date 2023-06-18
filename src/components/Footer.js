@@ -133,7 +133,7 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2023 - Hlodev | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
+            <a target="_blank" rel="noreferrer" href="#">
               Rahul
             </a>{' '}
           </PText>

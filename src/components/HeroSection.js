@@ -193,7 +193,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://facebook.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -201,29 +201,17 @@ export default function HeroSection() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     TW
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     IG
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noreferrer">
                     LI
                   </a>
                 </li>
