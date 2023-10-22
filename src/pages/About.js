@@ -91,7 +91,7 @@ export default function About() {
                   Hello, I'm Rahul, an aspiring entrepreneur with a strong
                   background in computer science and a passion for creating
                   cutting-edge software solutions. I am currently pursuing my
-                  second year of B.E. in computer science at Rajalakshmi
+                  Third year of B.E. in computer science at Rajalakshmi
                   Institute of Technology in Chennai.
                   <br /> <br />
                   With two years of experience in software development, my
@@ -134,15 +134,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['Tailwind', 'Typescript', 'JavaScript', 'Next']}
+                items={['React', 'Typescript', 'JavaScript', 'Next']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'MongoDB']}
+                items={['Node', 'Express', 'MongoDB', 'laravel']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Solidity', 'Rust', 'Thirdweb']}
+                title="Languages"
+                items={['Solidity', 'Rust', 'C/C++', 'Java', 'Python']}
               />
             </div>
             <div className="about__info__item">
@@ -154,7 +154,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="2023-Present"
-                items={['Co-Founder of CryptoCapita']}
+                items={['CTO at ROOK Fellows']}
               />
               <AboutInfoItem
                 title="2023-Present"

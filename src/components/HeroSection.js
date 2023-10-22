@@ -193,15 +193,19 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com"
+                    href="https://medium.com/@talktorahul.b"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    ME
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://twitter.com/__Rahul_Dev_"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     TW
                   </a>
                 </li>
@@ -211,7 +215,11 @@ export default function HeroSection() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/rahul-b-b23078225/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     LI
                   </a>
                 </li>

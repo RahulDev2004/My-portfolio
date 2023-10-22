@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/17.png';
+import AboutImg from '../assets/images/aboutme.png';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -16,9 +16,14 @@ const AboutSectionStyles = styled.div`
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
+    padding: 5px;
   }
   .section-title {
     text-align: left;
+  }
+  .aboutSection__right img {
+    width: 100%;
+    height: 80%;
   }
   .para {
     margin-top: 2rem;
@@ -32,11 +37,15 @@ const AboutSectionStyles = styled.div`
     margin-top: 2rem;
   }
   @media only screen and (max-width: 950px) {
+    .aboutSection__right {
+      flex: 3;
+    }
     .aboutSection__left {
       flex: 4;
     }
-    .aboutSection__right {
-      flex: 3;
+    .aboutSection__right img {
+      width: 100%;
+      height: 100%;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -67,6 +76,10 @@ const AboutSectionStyles = styled.div`
         text-align: center;
       }
     }
+    .aboutSection__right img {
+      width: 100%;
+      height: 100%;
+    }
   }
 `;
 
@@ -80,7 +93,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            This is Rahul B, Co-founder of Crypto Capita. I am expertised in
+            This is Rahul B, Freelance FullStack Developer. I am expertised in
             using web3 technologies to build Decentralised Solutions. I have 2+
             years of experience in software development...
           </PText>
